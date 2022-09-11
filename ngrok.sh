@@ -1,5 +1,5 @@
 echo "======================="
-echo "Download ngrok"
+echo "AMBIL TOKEN https://dashboard.ngrok.com/get-started/your-authtoken "
 echo "======================="
 rm -rf ngrok ngrok.zip ngrok.sh > /dev/null 2>&1
 wget -O ng.sh https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/intalngok.sh > /dev/null 2>&1
