@@ -1,5 +1,5 @@
 echo "Download ngrok"
-wget https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/ngok.sh && chmod +x ngrok.sh && ./ngrok.sh
+wget https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/ngrok.sh && chmod +x ngrok.sh && ./ngrok.sh
 echo Downloading File
 echo "===================================="
 echo "ENTENI SAK WETORO"
