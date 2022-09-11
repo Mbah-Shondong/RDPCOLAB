@@ -10,7 +10,8 @@ sudo apt-get update > /dev/null 2>&1
 echo "===================================="
 echo "Install BROWSER CHROME"
 echo "===================================="
-sudo apt install chrome -y > /dev/null 2>&1
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
