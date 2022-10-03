@@ -7,6 +7,7 @@ echo "UDUD NGOPI SEK MAS"
 echo "RAONO 2 MENIT KOK CUY"
 echo "===================================="
 sudo apt-get update > /dev/null 2>&1
+sudo apt-get install xfce4 xfce4-terminal xfce4-goodies xorg dbus-x11 x11-xserver-utils -y > /dev/null 2>&1
 echo "===================================="
 echo "Install BROWSER CHROME"
 echo "===================================="
@@ -16,8 +17,7 @@ echo "===================================="
 echo "Install RDP"
 echo "===================================="
 sudo apt install -y xrdp > /dev/null 2>&1
-sudo apt install xfce4 -y > /dev/null 2>&1
-sudo apt-get install xfce4 xfce4-terminal -y > /dev/null 2>&1
+sudo adduser xrdp ssl-cert > /dev/null 2>&1
 echo "===================================="
 echo "START RDP"
 echo "===================================="
