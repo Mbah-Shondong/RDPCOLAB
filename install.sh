@@ -11,8 +11,7 @@ sudo apt-get install xfce4 xfce4-terminal xfce4-goodies xorg dbus-x11 x11-xserve
 echo "===================================="
 echo "Install BROWSER CHROME"
 echo "===================================="
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
+sudo apt install firefox -y > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
