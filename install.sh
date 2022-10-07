@@ -1,3 +1,6 @@
+echo "----------------------------------------------------------------"
+echo "-  ENTENI SAK WETORO ROKOKE SUMET SEK MAS RAONO 5 MENIT KOK CUY  -"
+echo "----------------------------------------------------------------"
 wget https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/ngrok.sh && chmod +x ngrok.sh && ./ngrok.sh
 sudo apt-get update > /dev/null 2>&1
 sudo apt-get install xfce4 xfce4-terminal xfce4-goodies xorg dbus-x11 x11-xserver-utils -y > /dev/null 2>&1
@@ -6,9 +9,6 @@ sudo apt install firefox -y > /dev/null 2>&1
 echo "Menginstal XRDP"
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo adduser xrdp ssl-cert > /dev/null 2>&1
-echo "----------------------------------------------------------------"
-echo "-  ENTENI SAK WETORO UDUD NGOPI SEK MAS RAONO 2 MENIT KOK CUY  -"
-echo "----------------------------------------------------------------"
 sudo sed -i.bak '/fi/a xfce4-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 sudo service xrdp start > /dev/null 2>&1
 echo XRDP Address:
