@@ -1,14 +1,9 @@
-echo "======================="
-echo "AMBIL TOKEN https://dashboard.ngrok.com/get-started/your-authtoken "
-echo "======================="
 rm -rf ngrok ngrok.zip ngrok.sh > /dev/null 2>&1
 wget -O ng.sh https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/intalngok.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear
-echo "======================="
 echo choose ngrok region
-echo "======================="
 echo "us - United States (Ohio)"
 echo "eu - Europe (Frankfurt)"
 echo "ap - Asia/Pacific (Singapore)"
@@ -18,4 +13,3 @@ echo "jp - Japan (Tokyo)"
 echo "in - India (Mumbai)"
 read -p "choose ngrok region: " CRP
 ./ngrok tcp --region $CRP 3389 &>/dev/null &
-echo "======================="
