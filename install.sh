@@ -1,6 +1,3 @@
-echo "----------------------------------------------------------------"
-echo "-  ENTENI SAK WETORO ROKOKE SUMET SEK MAS RAONO 5 MENIT KOK CUY  -"
-echo "----------------------------------------------------------------"
 wget https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/ngrok.sh && chmod +x ngrok.sh && ./ngrok.sh
 sudo apt-get update > /dev/null 2>&1
 sudo apt-get install xfce4 xfce4-terminal xfce4-goodies xorg dbus-x11 x11-xserver-utils -y > /dev/null 2>&1
