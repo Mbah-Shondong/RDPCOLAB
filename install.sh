@@ -1,9 +1,9 @@
 wget https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/ngrok.sh && chmod +x ngrok.sh && ./ngrok.sh
 sudo apt-get update > /dev/null 2>&1
-sudo apt install lxde -y > /dev/null 2>&1
-echo "Menginstal Firefox + Midori"
+sudo apt install tasksel > /dev/null 2>&1
+sudo tasksel install ubuntu-desktop > /dev/null 2>&1
+echo "Menginstal Firefox"
 sudo apt install firefox -y > /dev/null 2>&1
-sudo apt install midori > /dev/null 2>&1
 echo "Menginstal XRDP"
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo adduser xrdp ssl-cert > /dev/null 2>&1
