@@ -1,5 +1,5 @@
 wget https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/ngrok.sh && chmod +x ngrok.sh && ./ngrok.sh
-sudo apt-get update && sudo apt upgrade -y > /dev/null 2>&1
+sudo apt-get update > /dev/null 2>&1
 sudo apt install lxde -y > /dev/null 2>&1
 echo "Menginstal Firefox + Midori"
 sudo apt install firefox -y > /dev/null 2>&1
