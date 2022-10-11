@@ -1,6 +1,6 @@
 wget https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/ngrok.sh && chmod +x ngrok.sh && ./ngrok.sh
 sudo apt-get update > /dev/null 2>&1
-sudo apt install ubuntu-desktop-minimal > /dev/null 2>&1
+sudo apt install xfce4 xorg dbus-x11 x11-xserver-utils > /dev/null 2>&1
 echo "Menginstal Firefox"
 sudo apt install firefox -y > /dev/null 2>&1
 echo "Menginstal XRDP"
