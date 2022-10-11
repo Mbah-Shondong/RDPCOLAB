@@ -1,7 +1,7 @@
 wget https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/ngrok.sh && chmod +x ngrok.sh && ./ngrok.sh
 sudo apt-get update > /dev/null 2>&1
-sudo add-apt-repository ppa:wasta-linux/cinnamon-4-8 > /dev/null 2>&1
-sudo apt install cinnamon-desktop-environment > /dev/null 2>&1
+sudo apt-get install lubuntu-desktop > /dev/null 2>&1
+sudo apt-get install lxde > /dev/null 2>&1
 echo "Menginstal Firefox"
 sudo apt install firefox -y > /dev/null 2>&1
 echo "Menginstal XRDP"
