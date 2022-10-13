@@ -16,9 +16,6 @@ read -p "choose ngrok region: " CRP
 clear
 sudo apt-get install lxde -y
 clear
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A6DCF7707EBC211F
-sudo apt-add-repository "deb http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu bionic main"
-sudo apt-get update > /dev/null 2>&1
 sudo apt-get install firefox -y > /dev/null 2>&1
 sudo apt install apt-transport-https curl > /dev/null 2>&1
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg > /dev/null 2>&1
