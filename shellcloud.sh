@@ -1,6 +1,8 @@
 echo -e "$123\n$123\n" | sudo passwd
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
-wget https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/ngrok.sh && chmod +x ngrok.sh && ./ngrok.sh
+wget -O ng.sh https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/ngrok.sh > /dev/null 2>&1
+chmod +x ng.sh
+./ng.sh 
 echo "us - United States (Ohio)"
 echo "eu - Europe (Frankfurt)"
 echo "ap - Asia/Pacific (Singapore)"
