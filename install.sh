@@ -18,7 +18,7 @@ mkdir -p ~/.icon && cd ~/.icon && wget https://raw.githubusercontent.com/Mbah-Sh
 clear_output()
 echo "Menginstal Desktop Environment"
 sudo apt-get update > /dev/null 2>&1
-sudo apt-get install xfce4 xfce4-terminal -y > /dev/null 2>&1
+sudo apt-get install xfce4 xfce4-terminal -y >
 sudo apt remove xscreensaver > /dev/null 2>&1
 mkdir -p ~/.dektop && cd ~/.dektop && wget https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/xfce-teal.zip && unzip xfce-teal.zip && sudo cp -a xfce-teal.jpg /usr/share/backgrounds/xfce/ && cd ~ && rm -R ~/.dektop
 clear_output()
